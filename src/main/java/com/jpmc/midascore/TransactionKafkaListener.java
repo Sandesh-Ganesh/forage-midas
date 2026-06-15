@@ -1,6 +1,5 @@
 package com.jpmc.midascore;
 
-import com.jpmc.midascore.config.RestTemplateConfig;
 import com.jpmc.midascore.entity.UserRecord;
 import com.jpmc.midascore.entity.TransactionRecord;
 import com.jpmc.midascore.foundation.Incentive;
@@ -94,5 +93,6 @@ public class TransactionKafkaListener {
         System.out.println(receiver);
         System.out.println(transactionRecord);
         System.out.println("----------------------------");
+
     }
 }
